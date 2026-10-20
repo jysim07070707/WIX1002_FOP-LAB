@@ -20,6 +20,8 @@ public class Task {
         System.out.print("Enter a number: ");
         double num = in.nextDouble();
 
+        System.out.println("Matrix ID : 24222371");
+
         System.out.printf("1. %s%n", text);
 
         System.out.printf("2. %d%n", (int) num);
