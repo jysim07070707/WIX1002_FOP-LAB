@@ -15,7 +15,7 @@ public class Task {
         Scanner in = new Scanner(System.in);
 
         System.out.print("Enter text: ");
-        String text = in.next();
+        String text = in.nextLine();
 
         System.out.print("Enter a number: ");
         double num = in.nextDouble();
