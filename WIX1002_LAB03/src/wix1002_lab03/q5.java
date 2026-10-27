@@ -24,8 +24,9 @@ public class q5 {
          
          double denominator = (a * d) - (b * c);
          double x , y;
+         double epsilion = 0.000000001;
          
-         if (denominator ==0){ 
+         if (Math.abs(denominator) < epsilion){ 
              System.out.println("The equation has no solution");
          }
          else { 
